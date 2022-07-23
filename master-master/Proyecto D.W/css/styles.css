@@ -34,6 +34,25 @@ main img{
 }
 
 
+button{
+        margin: 1rem;
+       margin-top: 0;
+       
+}
+
+.doble{
+        border: 1px solid black;
+}
+
+/* CARDS */
+
+section{
+        display:grid;
+        grid-template-areas: "imagen imagen imagen";
+        margin:20px;
+ }
+section img{grid-area: "imagen";
+            }
 
 .card{
         margin:10px;
@@ -45,24 +64,25 @@ main img{
 }
 
 
-button{
-        margin: 1rem;
-       margin-top: 0;
-       
+h5{
+        text-align: center;
 }
 
-.doble{
-        border: 1px solid black;
+p{
+        text-align: center;
 }
 
-
+.card img{
+        object-fit: cover;
+}
 
 
 /* PAGINAS */
 
+.envios img{width: 10%;}
 
-
-
+.envios{text-align: center;
+        background-color:wheat;}
 
 
 
@@ -70,16 +90,18 @@ button{
 
 h2{text-align: center;}
 
+.imagensale img{width: 50%;
+        justify-items: center;
+        border: solid 4px black;
+        display: block; 
+        margin: 0 auto; 
+        margin-top: 20px;
+        }
 
-
-
-
-section{display:grid;
-        grid-template-areas: "imagen imagen imagen";
-        margin:20px;
-         }
-section img{grid-area: "imagen";
-            }
+        
+.hpromo img{
+        width: 20rem;
+}
 
 .hotsale{display: grid;
         grid-template-areas: "imagen imagen";}
@@ -87,12 +109,19 @@ section img{grid-area: "imagen";
 .hpromo{grid-area: "imagen";}
 
 
-.hpromo img{width: 20rem;}
-
-.accordion-button{max-width: 90%;}
 
 
-.accordion-body{max-width: 90%;}
+
+
+/* FORMULARIO */
+
+input{
+        max-width: 90%;
+}
+
+textarea{
+        max-width: 90%;
+}
 
 article{width: 90%;
         background-image: url("../imagen/formulario.jpg");
@@ -101,32 +130,6 @@ article{width: 90%;
         margin: 0 auto;
         border: 1px dashed black;
         margin-bottom: 10px;}
-
-
-input{max-width: 90%;}
-
-
-textarea{max-width: 90%;}
-
-.imagensale img{width: 50%;
-           justify-items: center;
-           border: solid 4px black;
-           display: block; 
-           margin: 0 auto; 
-           margin-top: 20px;
-           }
-.envios img{width: 10%;}
-
-
-.envios{text-align: center;
-        background-color:wheat;}
-
-h5{text-align: center;}
-
-p{text-align: center;}
-
-.card img{object-fit: cover;}
-
 
 
 
